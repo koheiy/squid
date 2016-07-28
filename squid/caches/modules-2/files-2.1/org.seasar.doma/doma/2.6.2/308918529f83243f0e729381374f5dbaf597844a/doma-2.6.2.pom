@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.seasar.doma</groupId>
+  <artifactId>doma</artifactId>
+  <version>2.6.2</version>
+  <name>doma</name>
+  <description>Domain Oriented Database Mapping Framework for Java 8</description>
+  <url>https://github.com/domaframework/doma</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/license/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>nakamura-to</id>
+      <name>Toshihiro Nakamura</name>
+      <email>toshihiro.nakamura@gmail.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:domaframework/doma.git</connection>
+    <developerConnection>scm:git:git@github.com:domaframework/doma.git</developerConnection>
+    <url>git@github.com:domaframework/doma.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.seasar.aptina</groupId>
+      <artifactId>aptina-unit</artifactId>
+      <version>1.0.0</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
+</project>

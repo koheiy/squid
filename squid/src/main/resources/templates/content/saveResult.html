@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"/>
+<title>ほぞんページ</title>
+</head>
+	<body>
+		<div >
+			<form action="/save" th:action="@{/save}" th:object="${saveResultForm}" method="post">
+			<table>
+				<tr>
+					<td>ステージ</td>
+					<td>
+						<input type="text" id="txtStage" name="stage" th:field="*{stage}" />
+					</td>
+				</tr>
+				<tr>
+					<td>キル数</td>
+					<td>
+						<input type="text" id="txtKillCount" name="killCount" th:field="*{killCount}" />
+					</td>
+				</tr>
+				<tr>
+					<td>デス数</td>
+					<td>
+						<input type="text" id="txtDeathCount" name="deathCount" th:field="*{deathCount}" />
+					</td>
+				</tr>
+				<tr>
+					<td>勝敗</td>
+					<td>
+						<input type="text" id="txtResultFlg" name="resultFlg" th:field="*{resultFlg}" />
+					</td>
+				</tr>
+			</table>
+			<input type="submit" />
+			</form>
+		</div>
+	</body>
+</html>
